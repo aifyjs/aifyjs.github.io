@@ -1,5 +1,5 @@
 var ai = new aifyjs();
 
-// ai.labels();
+ai.labels();
 
 ai.captions();
