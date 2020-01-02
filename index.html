@@ -245,10 +245,10 @@ html, body, h1, h2, h3, h4, h5 {font-family: "Open Sans", sans-serif}
   <h5>Footer</h5>
 </footer>
 
-<footer class="w3-container w3-theme-d5">
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-</footer>
- 
+<div id="floating-panel" class="w3-card-8" style="display: block; position: fixed; top: 0; width: 300px; margin: auto; z-index: 999; background: #cdcdcd;">
+  <button class="w3-button w3-black" onclick="ai.displayCaptions();"> Display Captions</button> 
+  <button class="w3-button w3-black" onclick="ai.displayLabels();"> Display Labels</button> 
+</div>
 <script>
 // Accordion
 function myFunction(id) {
