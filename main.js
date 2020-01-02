@@ -4,5 +4,5 @@ ai.labels();
 
 ai.captions();
 
-// ai.displayLabels();
-// ai.displayCaptions();
+ai.displayLabels();
+ai.displayCaptions();
