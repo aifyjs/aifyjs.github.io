@@ -4,5 +4,5 @@ ai.labels();
 
 ai.captions();
 
-window.setTimeout({ai.displayCaptions();}, 5000);
-window.setTimeout({ai.displayLabels();}, 5000);
+window.setTimeout(function(){ai.displayCaptions();}, 5000);
+window.setTimeout(function(){ai.displayLabels();}, 5000);
